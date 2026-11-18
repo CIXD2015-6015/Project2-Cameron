@@ -1,1 +1,33 @@
-hello world
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My first page</title>
+  <style>
+    :root {
+      --color-bg: #f6f5f1;
+      --color-surface: #ebe9e2;
+      --color-text: #14161a;
+      --color-accent: #2a3de8;
+    }
+    body {
+      background: var(--color-bg);
+      color: var(--color-text);
+      font-family: system-ui, sans-serif;
+      padding: 2rem;
+    }
+    .button {
+      background: var(--color-accent);
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: 0;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello, I made this.</h1>
+  <p>One sentence about me.</p>
+  <button class="button">Click</button>
+</body>
+</html>
